@@ -4,4 +4,5 @@ I mostly work with Python, Frameworks and Cloud based technologies. 🚀
 
 Devops 
 
-https://raw.githubusercontent.com/itsksaurabh/itsksaurabh/master/assets/aws.gif
+![aws](https://github.com/AVI5211/AVI5211/assets/109135150/e56247de-1891-4da1-aa3a-e5bcce4c16a2)
+
