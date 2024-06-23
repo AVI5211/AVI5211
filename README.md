@@ -113,7 +113,7 @@
     <details>
   <summary><b>📈 My Contributions</b></summary>
    
-<p>&nbsp;<img align="center" src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=rishikeshops&theme=great_gatsby" alt="rishikeshops" /></p>
+
  
 
 </details>
