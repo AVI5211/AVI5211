@@ -124,7 +124,7 @@
    
 ## 📫 How to reach me? <img align="center" src="https://github.com/RishikeshOps/my_readme.md/blob/363fac5a1173a4727253e8e4a54104b604e5875b/Handshake.gif" height="33px" /></h3> 
 
-  ⦿ Connect with me on [LinkedIn](https://www.linkedin.com/in/aviraj-bhausaheb-kawade-268a9527b/) 👨🏻‍💻 <br>
+  ⦿ Connect with me on [LinkedIn](https://www.linkedin.com/in/aviraj-bhausaheb-kawade/) 👨🏻‍💻 <br>
   ⦿ Visit my [Naukri Profile]() 📄 <br>
   ⦿ Shoot Me an [Email](mailto:avirajbhausahebkawade@gmail.com) 💌 <br>
 
