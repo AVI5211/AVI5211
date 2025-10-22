@@ -132,13 +132,13 @@ currently_learning: "Advanced Kubernetes & Cloud-Native Tech"
 
 <!-- Visitor Counter with Base Count -->
 <p align="center">
-  <!-- Counter that continues from your base -->
-  <img src="https://count.getloli.com/get/@AVI5211?theme=rule34" alt="Profile Views" />
+  <!-- Animated style badge with your actual count -->
+  <img src="https://img.shields.io/badge/Profile_Views-3,652+-blueviolet?style=for-the-badge&logo=eye&logoColor=white&labelColor=8B5CF6&color=C084FC" alt="Profile Views" />
   <br/><br/>
-  <!-- GitHub specific counter -->
-  <img src="https://komarev.com/ghpvc/?username=AVI5211&label=GitHub%20Profile%20Views&color=blueviolet&style=for-the-badge&base=3652" alt="GitHub Profile Views" />
+  <!-- Live GitHub counter starting from 3652 -->
+  <img src="https://komarev.com/ghpvc/?username=AVI5211&label=Live%20Counter&color=blueviolet&style=for-the-badge&base=3652" alt="Live Counter" />
   <br/><br/>
-  <sub>🎯 Combined total views across all platforms: 3,652+</sub>
+  <sub>🎯 Total views: 3,652+ and counting! Counter updates with each visit.</sub>
 </p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
