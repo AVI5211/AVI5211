@@ -201,13 +201,15 @@ currently_learning: "Advanced Kubernetes & Cloud-Native Tech"
 
 <br/><br/>
 
-<!-- Clean Visitor Counter -->
+<!-- Animated Visitor Counter -->
 <p align="center">
+  <!-- Animated typing counter showing total views -->
   <a href="https://github.com/AVI5211">
-    <img src="https://count.getloli.com/get/@AVI5211?theme=rule34" alt="Visitor Counter" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=2000&pause=500&color=FF6B6B&center=true&vCenter=true&repeat=true&width=600&lines=Profile+Views%3A+3%2C652%2B+%F0%9F%91%81%EF%B8%8F;Thanks+for+Visiting!+%E2%AD%90;You're+Visitor+%23+3%2C652%2B+%F0%9F%8E%89" alt="Animated View Counter" />
   </a>
   <br/>
-  <sub>👁️ Base count: 3,652 | Live session counter above 👆</sub>
+  <!-- Backup static counter -->
+  <img src="https://komarev.com/ghpvc/?username=AVI5211&label=Profile%20Views&color=ff6b6b&style=for-the-badge&base=3652" alt="Profile Views" />
 </p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
