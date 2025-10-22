@@ -201,19 +201,15 @@ currently_learning: "Advanced Kubernetes & Cloud-Native Tech"
 
 <br/><br/>
 
-<!-- Epic Animated Visitor Counter Section -->
+<!-- Epic Visitor Counter with Focus on Total Count -->
 <p align="center">
-  <!-- Main animated counter with cool theme -->
-  <img src="https://count.getloli.com/get/@AVI5211-epic?theme=moebooru" alt="Visitor Counter" />
+  <!-- Single cool animated counter for aesthetics -->
+  <img src="https://count.getloli.com/get/@AVI5211?theme=asoul" alt="Visitor Counter" />
   <br/><br/>
-  <!-- Multiple counter options -->
-  <img src="https://count.getloli.com/get/@AVI5211-gelbooru?theme=gelbooru" alt="Counter 2" />
-  <img src="https://count.getloli.com/get/@AVI5211-asoul?theme=asoul" alt="Counter 3" />
+  <!-- BIG badge showing your REAL total count -->
+  <img src="https://img.shields.io/badge/👁️_TOTAL_PROFILE_VIEWS-3,652+-FF6B6B?style=for-the-badge&labelColor=8B5CF6" alt="Total Views" height="40"/>
   <br/><br/>
-  <!-- Static badge with total count -->
-  <img src="https://img.shields.io/badge/�️_Total_Profile_Views-3,652+-FF6B6B?style=for-the-badge&logoColor=white&labelColor=8B5CF6" alt="Total Views" />
-  <br/>
-  <sub>🎯 You're one of 3,652+ amazing visitors! Thanks for stopping by! 🌟</sub>
+  <sub>🎯 You're one of <b>3,652+</b> amazing visitors! The counter above shows live sessions �</sub>
 </p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
