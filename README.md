@@ -11,7 +11,7 @@
   <img src="https://img.shields.io/badge/Total_Repos-106-blue?style=flat-square&logo=github" alt="Total Repos" />
   <img src="https://img.shields.io/badge/AI_ML_Projects-37-purple?style=flat-square&logo=tensorflow" alt="AI/ML Projects" />
   <img src="https://img.shields.io/badge/Total_Commits-17,691%2B-green?style=flat-square&logo=git" alt="Total Commits" />
-  <img src="https://img.shields.io/badge/Lines_of_Code-3.0M%2B-orange?style=flat-square&logo=codecov" alt="Lines of Code" />
+  <img src="https://img.shields.io/badge/Lines_of_Code-3,017,994-orange?style=flat-square&logo=codecov" alt="Lines of Code" />
 </p>
 
 <p align="center">
