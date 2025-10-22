@@ -1,7 +1,23 @@
 {
-  "total_repos": 86,
+  "total_repos": 106,
+  "personal_repos": 86,
+  "org_repos": 20,
+  "organizations": ["alaska-app", "aviya-in", "AIVault-in"],
   "commits_this_year": 510,
   "estimated_total_commits": 1530,
-  "total_lines": 2991565,
-  "formatted_lines": "3.0M"
+  "total_lines": 3017937,
+  "formatted_lines": "3.0M",
+  "ai_ml_repos_count": 37,
+  "ai_ml_repos": [
+    "AVI5211/AVI5211",
+    "AVI5211/email-scrapper-y-combinator",
+    "AVI5211/Youtube-Automation-n8n",
+    "AVI5211/adk-python-agent-dev-kit",
+    "AVI5211/-AI-ML-Hands-On-Large-Language-Models",
+    "AVI5211/MoneyPrinterTurbo",
+    "AVI5211/Machine-Learning-Interviews",
+    "AVI5211/kubectl-ai",
+    "AVI5211/Highway-Guard-Next-Gen-Waste-Detection-main",
+    "AVI5211/Roadmap-to-ML"
+  ]
 }

@@ -8,15 +8,97 @@
 
 <!-- Comprehensive Stats Badges -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Total_Repos-86-blue?style=flat-square&logo=github" alt="Total Repos" />
+  <img src="https://img.shields.io/badge/Total_Repos-106-blue?style=flat-square&logo=github" alt="Total Repos" />
+  <img src="https://img.shields.io/badge/AI_ML_Projects-37-purple?style=flat-square&logo=tensorflow" alt="AI/ML Projects" />
   <img src="https://img.shields.io/badge/Total_Commits-1,530%2B-green?style=flat-square&logo=git" alt="Total Commits" />
-  <img src="https://img.shields.io/badge/Lines_of_Code-2,991,565%2B-orange?style=flat-square&logo=codecov" alt="Lines of Code" />
+  <img src="https://img.shields.io/badge/Lines_of_Code-3.0M%2B-orange?style=flat-square&logo=codecov" alt="Lines of Code" />
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/github/followers/AVI5211?label=Followers&style=social" alt="followers" />
   <img src="https://img.shields.io/github/stars/AVI5211?label=Total%20Stars&style=social" alt="stars" />
 </p>
+
+</div>
+
+---
+
+## 🤖 AI/ML Projects Portfolio
+
+<div align="center">
+
+### 🧠 Building Intelligent Solutions with Machine Learning & AI
+
+<p align="center">
+  <img src="https://img.shields.io/badge/AI%2FML_Projects-37-blueviolet?style=for-the-badge&logo=tensorflow&logoColor=white" alt="AI/ML Projects" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
+  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter" />
+</p>
+
+</div>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🎯 Featured AI/ML Projects
+
+- **[AI Agent Development Kit](https://github.com/AVI5211/adk-python-agent-dev-kit)**
+  - 🤖 Code-first Python toolkit for building AI agents
+  - ⚡ Flexible and control-oriented design
+  - 🔧 Production-ready agent framework
+
+- **[MoneyPrinter Turbo](https://github.com/AVI5211/MoneyPrinterTurbo)**
+  - 🎬 AI-powered video generation with one click
+  - 🚀 LLM-based content automation
+  - 📹 Automated short-form video creation
+
+- **[Hands-On Large Language Models](https://github.com/AVI5211/-AI-ML-Hands-On-Large-Language-Models)**
+  - 📚 O'Reilly Book companion code
+  - 🧠 Practical LLM implementations
+  - 🔬 Deep learning experiments
+
+</td>
+<td width="50%" valign="top">
+
+### 🚀 More AI/ML Work
+
+- **[Highway Guard](https://github.com/AVI5211/Highway-Guard-Next-Gen-Waste-Detection-main)**
+  - 👁️ Computer vision for waste detection
+  - 🛣️ Real-time highway monitoring
+  - 🎥 Live stream processing
+
+- **[ML Interview Prep](https://github.com/AVI5211/Machine-Learning-Interviews)**
+  - 💼 Comprehensive ML interview guide
+  - 📝 Technical interview questions
+  - 🎯 Industry-ready preparation
+
+- **[kubectl-ai](https://github.com/AVI5211/kubectl-ai)**
+  - 🤖 AI-powered Kubernetes assistant
+  - ☸️ Intelligent cluster management
+  - 🔧 MLOps automation tool
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+### 🌟 AI/ML Technology Stack
+
+<p>
+  <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" alt="Scikit-Learn"/>
+  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas"/>
+  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy"/>
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV"/>
+  <img src="https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white" alt="Keras"/>
+  <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face"/>
+</p>
+
+**📊 37 AI/ML projects across personal & organization repositories**  
+*Specializing in LLMs, Computer Vision, MLOps & Intelligent Automation*
 
 </div>
 
@@ -117,9 +199,11 @@ currently_learning: "Advanced Kubernetes & Cloud-Native Tech"
 
 ### 📈 Profile Overview
 
-| 📦 Total Repositories | 🔓 Public | 🔒 Private | 👥 Followers | 👤 Following |
-|:---:|:---:|:---:|:---:|:---:|
-| **86** | 45 | 41 | **15** | 3 |
+| 📦 Total Repositories | 🔓 Public | 🔒 Private | 🏢 Organizations | 👥 Followers | 👤 Following |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| **106** | 45 | 41 | **3** | **15** | 3 |
+
+**Organizations:** `alaska-app` • `aviya-in` • `AIVault-in`
 
 </div>
 
