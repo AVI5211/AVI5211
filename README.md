@@ -6,6 +6,13 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=DevOps+Engineer+%E2%9A%99%EF%B8%8F;Cloud+Architecture+Enthusiast+%E2%98%81%EF%B8%8F;Automation+%26+CI%2FCD+Expert+%F0%9F%9A%80;MLOps+%26+Kubernetes+Pro+%F0%9F%93%A6" alt="Typing SVG" />
 </a>
 
+<!-- Comprehensive Stats Badges -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Total_Repos-86-blue?style=flat-square&logo=github" alt="Total Repos" />
+  <img src="https://img.shields.io/badge/Total_Commits-1,530%2B-green?style=flat-square&logo=git" alt="Total Commits" />
+  <img src="https://img.shields.io/badge/Lines_of_Code-3.0M%2B-orange?style=flat-square&logo=codecov" alt="Lines of Code" />
+</p>
+
 <p align="center">
   <img src="https://img.shields.io/github/followers/AVI5211?label=Followers&style=social" alt="followers" />
   <img src="https://img.shields.io/github/stars/AVI5211?label=Total%20Stars&style=social" alt="stars" />
@@ -51,6 +58,7 @@ currently_learning: "Advanced Kubernetes & Cloud-Native Tech"
 ---
 
 
+
 ## 📊 Real-Time GitHub Statistics
 
 <div align="center">
@@ -65,7 +73,7 @@ currently_learning: "Advanced Kubernetes & Cloud-Native Tech"
 
 ### 💻 Top Programming Languages
 
-  - ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) `20 repos`
+  - ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) `21 repos`
   - ![HTML](https://img.shields.io/badge/-HTML-E34F26?style=flat-square&logo=html&logoColor=white) `16 repos`
   - ![CSS](https://img.shields.io/badge/-CSS-1572B6?style=flat-square&logo=css&logoColor=white) `9 repos`
   - ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) `8 repos`
@@ -82,7 +90,7 @@ currently_learning: "Advanced Kubernetes & Cloud-Native Tech"
   - ⭐ **[User_profile_app_using_docker](https://github.com/AVI5211/User_profile_app_using_docker)** - 1 stars | HTML
 
 <div align="center">
-  <sub>📅 Last Updated: October 22, 2025 at 10:43 UTC</sub>
+  <sub>📅 Last Updated: October 22, 2025 at 11:04 UTC</sub>
 </div>
 
 ---
