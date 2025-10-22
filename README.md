@@ -130,15 +130,15 @@ currently_learning: "Advanced Kubernetes & Cloud-Native Tech"
 
 <br/><br/>
 
-<!-- Visitor Counter - Multiple Working Options -->
+<!-- Visitor Counter with Base Count -->
 <p align="center">
-  <!-- Primary Counter -->
-  <img src="https://komarev.com/ghpvc/?username=AVI5211&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="Profile Views" />
+  <!-- Counter that continues from your base -->
+  <img src="https://count.getloli.com/get/@AVI5211?theme=rule34" alt="Profile Views" />
   <br/><br/>
-  <!-- Backup Counter -->
-  <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FAVI5211%2FAVI5211&count_bg=%2379C83D&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=Profile+Visits&edge_flat=false" alt="Visit Counter"/>
+  <!-- GitHub specific counter -->
+  <img src="https://komarev.com/ghpvc/?username=AVI5211&label=GitHub%20Profile%20Views&color=blueviolet&style=for-the-badge&base=3652" alt="GitHub Profile Views" />
   <br/><br/>
-  <sub>👁️ Total Historical Views: 3,652+ (Before tracker reset)</sub>
+  <sub>🎯 Combined total views across all platforms: 3,652+</sub>
 </p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
