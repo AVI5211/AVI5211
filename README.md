@@ -130,24 +130,13 @@ currently_learning: "Advanced Kubernetes & Cloud-Native Tech"
 
 <br/><br/>
 
-<!-- Visitor Counter with Animated Style -->
+<!-- Clean Visitor Counter -->
 <p align="center">
-  <!-- Animated counter from getloli.com -->
-  <img src="https://count.getloli.com/get/@AVI5211?theme=rule34" alt="Animated Counter" />
+  <a href="https://github.com/AVI5211">
+    <img src="https://count.getloli.com/get/@AVI5211?theme=rule34" alt="Visitor Counter" />
+  </a>
   <br/>
-  <sub>⬆️ Current session views (resets periodically)</sub>
-  <br/><br/>
-  <!-- Your actual total count -->
-  <img src="https://img.shields.io/badge/Total_Profile_Views-3,652+-blueviolet?style=for-the-badge&logo=eye&logoColor=white&labelColor=8B5CF6&color=C084FC" alt="Total Views" />
-  <br/>
-  <sub>⬆️ All-time total views since profile creation</sub>
-  <br/><br/>
-  <!-- Live GitHub counter starting from 3652 -->
-  <img src="https://komarev.com/ghpvc/?username=AVI5211&label=GitHub%20Profile%20Counter&color=blueviolet&style=for-the-badge&base=3652" alt="GitHub Counter" />
-  <br/>
-  <sub>⬆️ Live counter tracking from base 3,652</sub>
-  <br/><br/>
-  <sub>🎯 Combined tracking: Animated display + Total count + Live tracker!</sub>
+  <sub>👁️ Base count: 3,652 | Live session counter above 👆</sub>
 </p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
