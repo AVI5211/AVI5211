@@ -130,27 +130,12 @@ currently_learning: "Advanced Kubernetes & Cloud-Native Tech"
 
 </div>
 
-### 💻 Top Programming Languages
 
-  - ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) `21 repos`
-  - ![HTML](https://img.shields.io/badge/-HTML-E34F26?style=flat-square&logo=html&logoColor=white) `16 repos`
-  - ![CSS](https://img.shields.io/badge/-CSS-1572B6?style=flat-square&logo=css&logoColor=white) `9 repos`
-  - ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) `8 repos`
-  - ![PHP](https://img.shields.io/badge/-PHP-777BB4?style=flat-square&logo=php&logoColor=white) `5 repos`
-  - ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white) `4 repos`
-  - ![Dockerfile](https://img.shields.io/badge/-Dockerfile-2496ED?style=flat-square&logo=dockerfile&logoColor=white) `2 repos`
-  - ![Jupyter Notebook](https://img.shields.io/badge/-Jupyter Notebook-F37626?style=flat-square&logo=jupyter-notebook&logoColor=white) `2 repos`
-
-### 🌟 Featured Repositories
-
-  - ⭐ **[kubernetes-in-one-shot](https://github.com/AVI5211/kubernetes-in-one-shot)** - 2 stars | JavaScript
-  - ⭐ **[awesome-remote-job](https://github.com/AVI5211/awesome-remote-job)** - 1 stars | N/A
-  - ⭐ **[Two-Tier-Flask-App](https://github.com/AVI5211/Two-Tier-Flask-App)** - 1 stars | HTML
-  - ⭐ **[User_profile_app_using_docker](https://github.com/AVI5211/User_profile_app_using_docker)** - 1 stars | HTML
-
-<div align="center">
-  <sub>📅 Last Updated: October 22, 2025 at 11:04 UTC</sub>
 </div>
+
+---
+
+## 📝 Latest Blog Posts
 
 ---
 
