@@ -43,7 +43,10 @@ total_repos = len(all_repos)
 
 print(f"\n✅ Total Repositories (Personal + Orgs): {total_repos}")
 
-# 4. Get EXACT commits from GraphQL (much faster!)
+# 4. Get commits using a faster approach
+print(f"\n📝 Calculating total commits across all repositories...")
+
+# First get your personal commits this year from GraphQL
 graphql_query = '''
 {
   viewer {
@@ -58,14 +61,52 @@ graphql_query = '''
 commits_result = run_cmd(f"gh api graphql -f query='{graphql_query}'")
 commits_data = json.loads(commits_result)
 
-# Calculate total commits
-public_commits = commits_data['data']['viewer']['contributionsCollection']['totalCommitContributions']
-private_commits = commits_data['data']['viewer']['contributionsCollection']['restrictedContributionsCount']
-total_commits = public_commits + private_commits
+public_commits_this_year = commits_data['data']['viewer']['contributionsCollection']['totalCommitContributions']
+private_commits_this_year = commits_data['data']['viewer']['contributionsCollection']['restrictedContributionsCount']
+total_commits_this_year = public_commits_this_year + private_commits_this_year
 
-print(f"✅ Total Commits (This Year): {total_commits}")
-print(f"   - Public: {public_commits}")
-print(f"   - Private: {private_commits}")
+print(f"✅ Your Personal Commits (This Year): {total_commits_this_year}")
+print(f"   - Public: {public_commits_this_year}")
+print(f"   - Private: {private_commits_this_year}")
+
+# Now count commits from a sample of repos to estimate total
+print(f"\n📊 Sampling repositories to estimate total commits...")
+sample_size = min(20, total_repos)
+total_commits_all_repos = 0
+sampled_count = 0
+
+for repo in all_repos[:sample_size]:
+    repo_name = repo['nameWithOwner']
+    try:
+        # Get default branch commit count (faster than paginating all commits)
+        commit_cmd = f"gh api repos/{repo_name} --jq '.default_branch' 2>/dev/null"
+        default_branch = run_cmd(commit_cmd).strip()
+        
+        if default_branch:
+            # Get commit count for default branch
+            commits_cmd = f"gh api repos/{repo_name}/commits?per_page=1 --include 2>&1 | grep -i '^link:' | sed -n 's/.*page=\\([0-9]*\\)>; rel=\"last\".*/\\1/p'"
+            commit_count_str = run_cmd(commits_cmd).strip()
+            
+            if commit_count_str and commit_count_str.isdigit():
+                commit_count = int(commit_count_str)
+                total_commits_all_repos += commit_count
+                sampled_count += 1
+                
+        if (sampled_count + 1) % 5 == 0:
+            print(f"   Sampled {sampled_count}/{sample_size} repos...")
+    except:
+        continue
+
+# Extrapolate to all repos
+if sampled_count > 0:
+    avg_commits_per_repo = total_commits_all_repos / sampled_count
+    estimated_total_commits = int(avg_commits_per_repo * total_repos)
+else:
+    # Fallback to conservative estimate
+    estimated_total_commits = total_commits_this_year * 3
+
+print(f"✅ Estimated Total Commits (All Repos): {estimated_total_commits:,}+")
+print(f"   Based on {sampled_count} sampled repositories")
 
 # 5. Calculate lines of code from language statistics (FAST!)
 total_bytes = 0
@@ -115,14 +156,11 @@ if len(ai_ml_repos) > 0:
     for repo in ai_ml_repos[:5]:
         print(f"   - {repo}")
 
-# Estimate all-time commits (GitHub only shows current year)
-estimated_total_commits = total_commits * 3  # Conservative 3-year estimate
-
 print(f"\n🎯 FINAL STATISTICS:")
 print(f"   📦 Total Repos (Personal + Orgs): {total_repos}")
 print(f"   🏢 Organizations: {len(orgs)}")
-print(f"   📝 Total Commits (Estimated All-Time): {estimated_total_commits:,}+")
-print(f"   📝 This Year's Commits: {total_commits:,}")
+print(f"   📝 Estimated Total Commits (All Repos): {estimated_total_commits:,}+")
+print(f"   📝 Your Commits This Year: {total_commits_this_year:,}")
 print(f"   📊 Total Lines of Code: {total_lines:,} ({formatted_lines}+)")
 print(f"   🤖 AI/ML Projects: {len(ai_ml_repos)}")
 
@@ -132,8 +170,8 @@ results = {
     "personal_repos": len(personal_data),
     "org_repos": len(org_repos),
     "organizations": orgs,
-    "commits_this_year": total_commits,
     "estimated_total_commits": estimated_total_commits,
+    "commits_this_year": total_commits_this_year,
     "total_lines": total_lines,
     "formatted_lines": formatted_lines,
     "ai_ml_repos_count": len(ai_ml_repos),
@@ -146,7 +184,7 @@ with open('github_stats.json', 'w') as f:
 print(f"\n✅ Stats saved to github_stats.json")
 print(f"\nTo update README, use these values:")
 print(f"   Total_Repos-{total_repos}")
-print(f"   Total_Commits-{estimated_total_commits}%2B")
+print(f"   Total_Commits-{estimated_total_commits:,}%2B")
 print(f"   Lines_of_Code-{formatted_lines}%2B")
 print(f"   AI_ML_Projects-{len(ai_ml_repos)}")
 
