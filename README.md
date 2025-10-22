@@ -201,15 +201,15 @@ currently_learning: "Advanced Kubernetes & Cloud-Native Tech"
 
 <br/><br/>
 
-<!-- Epic Visitor Counter with Focus on Total Count -->
+<!-- Clean Professional Visitor Counter -->
 <p align="center">
-  <!-- Single cool animated counter for aesthetics -->
-  <img src="https://count.getloli.com/get/@AVI5211?theme=asoul" alt="Visitor Counter" />
+  <!-- Main total views badge - BIG and prominent -->
+  <img src="https://img.shields.io/badge/👁️_TOTAL_PROFILE_VIEWS-3,652+-FF6B6B?style=for-the-badge&labelColor=8B5CF6" alt="Total Views" height="45"/>
   <br/><br/>
-  <!-- BIG badge showing your REAL total count -->
-  <img src="https://img.shields.io/badge/👁️_TOTAL_PROFILE_VIEWS-3,652+-FF6B6B?style=for-the-badge&labelColor=8B5CF6" alt="Total Views" height="40"/>
+  <!-- Alternative live counter that actually tracks -->
+  <img src="https://komarev.com/ghpvc/?username=AVI5211&label=Current%20Views&color=blueviolet&style=for-the-badge&base=3652" alt="Live Counter"/>
   <br/><br/>
-  <sub>🎯 You're one of <b>3,652+</b> amazing visitors! The counter above shows live sessions �</sub>
+  <sub>🎯 <b>3,652+</b> amazing visitors and counting! Thanks for being here! ⭐</sub>
 </p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
