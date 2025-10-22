@@ -40,8 +40,6 @@ mission: "Driving innovation through automation and
 currently_learning: "Advanced Kubernetes & Cloud-Native Tech"
 ```
 
-<br clear="right"/>
-
 ---
 
 ## � Tech Stack & DevOps Tools
