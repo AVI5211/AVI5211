@@ -130,22 +130,48 @@ currently_learning: "Advanced Kubernetes & Cloud-Native Tech"
 
 </div>
 
-
-</div>
-
 ---
 
 ## 📝 Latest Blog Posts
 
----
-
-## 📈 Coding Activity
-
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AVI5211&theme=tokyo-night&hide_border=true" width="90%"/>
+
+### � Check out my latest technical articles!
+
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <a href="https://aviraj.info/?spotlight=-30-day-mlops-challenge-from-zero-to-hero">
+        <img src="https://img.shields.io/badge/📚_30--Day_MLOps_Challenge-From_Zero_to_Hero-FF6B6B?style=for-the-badge" alt="MLOps Challenge"/>
+      </a>
+      <br/>
+      <sub><b>Complete guide to mastering MLOps in 30 days</b></sub>
+    </td>
+    <td align="center" width="33%">
+      <a href="https://aviraj.info/?spotlight=-devops-roadmap-2025-your-complete-guide-to-becoming-a-devops-engineer">
+        <img src="https://img.shields.io/badge/🛣️_DevOps_Roadmap_2025-Complete_Guide-4ECDC4?style=for-the-badge" alt="DevOps Roadmap"/>
+      </a>
+      <br/>
+      <sub><b>Your complete guide to becoming a DevOps Engineer</b></sub>
+    </td>
+    <td align="center" width="33%">
+      <a href="https://aviraj.info/?spotlight=-api-architectures-you-should-know-in-2025">
+        <img src="https://img.shields.io/badge/🏗️_API_Architectures-2025_Edition-95E1D3?style=for-the-badge" alt="API Architectures"/>
+      </a>
+      <br/>
+      <sub><b>Essential API architectures you should know</b></sub>
+    </td>
+  </tr>
+</table>
+
+<a href="https://aviraj.info/">
+  <img src="https://img.shields.io/badge/Visit_My_Blog-aviraj.info-FF6B6B?style=for-the-badge&logo=rss&logoColor=white" alt="Visit Blog"/>
+</a>
+
 </div>
 
 ---
+
 ## 🌐 Connect With Me
 
 <div align="center">
