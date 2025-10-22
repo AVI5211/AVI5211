@@ -44,7 +44,66 @@ currently_learning: "Advanced Kubernetes & Cloud-Native Tech"
 
 ---
 
-## 📊 GitHub Statistics
+## � Tech Stack & DevOps Tools
+
+### ⚡ Core Technologies
+
+<p align="center">
+  <a href="https://www.linux.org/" target="_blank">
+    <img src="https://www.vectorlogo.zone/logos/linux/linux-icon.svg" alt="Linux" height="70" />
+  </a>
+  <a href="https://aws.amazon.com/" target="_blank">
+    <img src="https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg" alt="AWS" height="70" />
+  </a>
+  <a href="https://www.docker.com/" target="_blank">
+    <img src="https://raw.githubusercontent.com/itsksaurabh/itsksaurabh/master/assets/docker.gif" alt="Docker" height="70" />
+  </a>
+  <a href="https://kubernetes.io/" target="_blank">
+    <img src="https://raw.githubusercontent.com/itsksaurabh/itsksaurabh/master/assets/k8s.gif" alt="Kubernetes" height="70" />
+  </a>
+  <a href="https://helm.sh/" target="_blank">
+    <img src="https://raw.githubusercontent.com/itsksaurabh/itsksaurabh/master/assets/helm.gif" alt="Helm" height="70" />
+  </a>
+  <a href="https://www.terraform.io/" target="_blank">
+    <img src="https://raw.githubusercontent.com/itsksaurabh/itsksaurabh/master/assets/terraform.gif" alt="Terraform" height="70" />
+  </a>
+  <a href="https://www.jenkins.io/" target="_blank">
+    <img src="https://raw.githubusercontent.com/DARK-art108/ItsRitesh/master/assets/ll.png" alt="Jenkins" height="70" />
+  </a>
+  <a href="https://www.ansible.com/" target="_blank">
+    <img src="https://www.vectorlogo.zone/logos/ansible/ansible-icon.svg" alt="Ansible" height="70" />
+  </a>
+  <a href="https://golang.org/" target="_blank">
+    <img src="https://raw.githubusercontent.com/itsksaurabh/itsksaurabh/master/assets/golang.gif" alt="Golang" height="70" />
+  </a>
+  <a href="https://code.visualstudio.com/" target="_blank">
+    <img src="https://i.giphy.com/media/IdyAQJVN2kVPNUrojM/200.webp" alt="VS Code" height="70" />
+  </a>
+  <a href="https://github.com/" target="_blank">
+    <img src="https://media.giphy.com/media/kH1DBkPNyZPOk0BxrM/giphy.gif" alt="GitHub" height="70" />
+  </a>
+  <a href="https://docs.gitlab.com/ee/ci/" target="_blank">
+    <img src="https://raw.githubusercontent.com/itsksaurabh/itsksaurabh/master/assets/cicd.gif" alt="CI/CD" height="70" />
+  </a>
+</p>
+
+### 📊 Monitoring & Observability
+
+<p align="center">
+  <a href="https://grafana.com/" target="_blank">
+    <img src="https://raw.githubusercontent.com/itsksaurabh/itsksaurabh/master/assets/grafana.gif" alt="Grafana" height="65" />
+  </a>
+  <a href="https://prometheus.io/" target="_blank">
+    <img src="https://raw.githubusercontent.com/itsksaurabh/itsksaurabh/master/assets/prometheus.gif" alt="Prometheus" height="65" />
+  </a>
+  <a href="https://www.dynatrace.com/" target="_blank">
+    <img src="https://github.com/RishikeshOps/RishikeshOps/blob/2cc25b2346695d90429b3734f35e1705672369b0/Dynatrace_Logo_color_negative_vertical.png" alt="Dynatrace" height="65" />
+  </a>
+</p>
+
+---
+
+## �📊 GitHub Statistics
 
 <div align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=AVI5211&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
