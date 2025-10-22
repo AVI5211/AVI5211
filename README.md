@@ -130,7 +130,16 @@ currently_learning: "Advanced Kubernetes & Cloud-Native Tech"
 
 <br/><br/>
 
-![Visitor Count](https://profile-counter.glitch.me/AVI5211/count.svg)
+<!-- Visitor Counter -->
+<p align="center">
+  <img src="https://visitcount.itsvg.in/api?id=AVI5211&label=Profile%20Views&color=12&icon=5&pretty=true" alt="Profile Views" />
+  <br/>
+  <sub>👁️ Total Views: 3,652+ and counting!</sub>
+</p>
+
+<!-- Alternative counters (uncomment if one fails) -->
+<!-- <img src="https://komarev.com/ghpvc/?username=AVI5211&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="Profile Views" /> -->
+<!-- <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FAVI5211&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Profile+Views&edge_flat=false" alt="Profile Views"/> -->
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
 
