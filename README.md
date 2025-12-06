@@ -14,10 +14,8 @@
   <img src="https://img.shields.io/badge/Lines_of_Code-6,589,307-orange?style=flat-square&logo=codecov" alt="Lines of Code" />
 </p>
 
-<p align="center" style="font-size: 17px;">
-  <span style="display: inline-flex; align-items: center; gap: 5px;">
-    ⏱️ Next update: <img src="https://nextupdate-ldiavmgiqq-uc.a.run.app" alt="countdown" style="vertical-align: middle; height: 17px; margin: 0 3px;" /> • Auto-updates every 8 hours (00:00, 08:00, 16:00 UTC)
-  </span>
+<p align="center">
+  ⏱️ Next update: <img src="https://nextupdate-ldiavmgiqq-uc.a.run.app" alt="countdown" /> • Auto-updates every 8 hours (00:00, 08:00, 16:00 UTC)
 </p>
 
 <p align="center">
