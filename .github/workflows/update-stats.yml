@@ -50,7 +50,7 @@ jobs:
       
       - name: Update GitHub Stats
         run: |
-          python3 update_github_stats.py
+          python3 fast_stats.py
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
           GITHUB_ACTOR: ${{ github.actor }}
@@ -59,7 +59,7 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add README.md
+          git add README.md github_stats.json
           git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 Auto-update GitHub stats [skip ci]" && git push)
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
