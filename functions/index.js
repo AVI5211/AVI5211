@@ -13,14 +13,53 @@ const {onRequest} = require("firebase-functions/https");
 setGlobalOptions({maxInstances: 10});
 
 /**
- * Compute next scheduled update ETA (8-hour cron window)
- * Cron runs at 00:00, 08:00, 16:00 UTC
- * @param {number} hoursBetween - Hours between cron runs
- * @return {string} - Time remaining in HH:MM:SS format
+ * Format time difference as HH:MM:SS
+ * @param {Date} targetDate - Target date
+ * @param {Date} now - Current date
+ * @return {string} Formatted time string
  */
-function nextEta(hoursBetween = 8) {
+function formatEta(targetDate, now = new Date()) {
+  const diffMs = targetDate - now;
+  const totalSeconds = Math.max(0, Math.floor(diffMs / 1000));
+  const h = String(Math.floor(totalSeconds / 3600)).padStart(2, "0");
+  const m = String(Math.floor((totalSeconds % 3600) / 60)).padStart(2, "0");
+  const s = String(totalSeconds % 60).padStart(2, "0");
+  return `${h}:${m}:${s}`;
+}
+
+/**
+ * Parse timestamp from query parameter
+ * @param {string|number} raw - Raw timestamp value
+ * @return {Date|null} Parsed date or null
+ */
+function parseTimestamp(raw) {
+  if (!raw) return null;
+  const num = Number(raw);
+  if (!Number.isNaN(num)) {
+    // Accept either ms or s epoch values
+    const epochMs = num > 1e12 ? num : num * 1000;
+    const d = new Date(epochMs);
+    return Number.isNaN(d.getTime()) ? null : d;
+  }
+  const iso = new Date(raw);
+  return Number.isNaN(iso.getTime()) ? null : iso;
+}
+
+/**
+ * Compute ETA relative to the last successful workflow run.
+ * If no timestamp is supplied, fall back to cron-based cadence.
+ * @param {Date|null} lastRunAt - Timestamp of last workflow completion
+ * @param {number} hoursBetween - Hours between runs
+ * @return {string}
+ */
+function nextEta(lastRunAt, hoursBetween = 8) {
+  if (lastRunAt instanceof Date && !Number.isNaN(lastRunAt.getTime())) {
+    const target = new Date(lastRunAt.getTime() + hoursBetween * 3600 * 1000);
+    return formatEta(target);
+  }
+
+  // Fallback: scheduled cron windows (00:00, 08:00, 16:00 UTC)
   const now = new Date();
-  // UTC time
   const utcNow = new Date(Date.UTC(
       now.getUTCFullYear(),
       now.getUTCMonth(),
@@ -39,13 +78,7 @@ function nextEta(hoursBetween = 8) {
     nextRun.setUTCHours(nextRun.getUTCHours() + hoursBetween);
   }
 
-  const diffMs = nextRun - utcNow;
-  const totalSeconds = Math.max(0, Math.floor(diffMs / 1000));
-  const h = String(Math.floor(totalSeconds / 3600)).padStart(2, "0");
-  const m = String(Math.floor((totalSeconds % 3600) / 60)).padStart(2, "0");
-  const s = String(totalSeconds % 60).padStart(2, "0");
-
-  return `${h}:${m}:${s}`;
+  return formatEta(nextRun, utcNow);
 }
 
 /**
@@ -55,39 +88,29 @@ function nextEta(hoursBetween = 8) {
  * @return {void}
  */
 exports.nextUpdate = onRequest((req, res) => {
-  const eta = nextEta(8); // 8-hour cron cadence
+  const hoursBetween = Number(
+      req.query.window || req.query.hours || req.query.duration,
+  ) || 8;
+  const lastRunAt = parseTimestamp(
+      req.query.t || req.query.timestamp || req.query.lastRun,
+  );
+  const eta = nextEta(lastRunAt, hoursBetween);
 
-  // SVG badge with no-cache headers
+  // SVG badge with bright colors for visibility
   // eslint-disable-next-line max-len
   const svg = `<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="180" height="20" role="img" aria-label="Next Update: ${eta}">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="28" role="img" aria-label="Next Update: ${eta}">
   <title>Next Update: ${eta}</title>
-  <linearGradient id="s" x2="0" y2="100%">
-    <stop offset="0" stop-color="#bbb"/>
-    <stop offset="1" stop-color="#999"/>
-  </linearGradient>
-  <clipPath id="r">
-    <rect width="180" height="20" rx="3" fill="#fff"/>
-  </clipPath>
-  <g clip-path="url(#r)">
-    <rect width="120" height="20" fill="#555"/>
-    <rect x="120" width="60" height="20" fill="#1cb841"/>
-    <rect width="180" height="20" fill="url(#s)"/>
-  </g>
-  <g fill="#fff" text-anchor="middle"
-     font-family="Verdana,Geneva,DejaVu Sans,sans-serif"
-     text-rendering="geometricPrecision" font-size="11">
-    <text aria-hidden="true" x="610" y="150" fill="#010101"
-          fill-opacity=".3" transform="scale(.1)"
-          textLength="1100">⏱️ Next Update</text>
-    <text x="610" y="140" transform="scale(.1)" fill="#fff"
-          textLength="1100">⏱️ Next Update</text>
-    <text aria-hidden="true" x="1485" y="150" fill="#010101"
-          fill-opacity=".3" transform="scale(.1)"
-          textLength="500">${eta}</text>
-    <text x="1485" y="140" transform="scale(.1)" fill="#fff"
-          textLength="500">${eta}</text>
-  </g>
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00ff00;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00cc00;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="200" height="28" rx="4" fill="url(#grad)"/>
+  <rect x="2" y="2" width="196" height="24" rx="3" fill="#000"/>
+  <text x="100" y="20" font-family="Arial, sans-serif" font-size="16" 
+        font-weight="bold" fill="#00ff00" text-anchor="middle">⏱️ ${eta}</text>
 </svg>`;
 
   // Force no caching to ensure real-time updates
