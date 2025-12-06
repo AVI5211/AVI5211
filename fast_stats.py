@@ -11,6 +11,7 @@ import subprocess
 import sys
 import re
 import io
+from datetime import datetime, timedelta, timezone
 
 # Fix encoding on Windows
 if sys.platform == 'win32':
@@ -196,6 +197,23 @@ print(f"   (Sampled {processed_count} repos and extrapolated)")
 total_stars = sum(r.get('stargazerCount', 0) for r in repos)
 print(f"\n⭐ Total Stars: {total_stars}")
 
+# Compute next scheduled update ETA based on 8-hour cron (00:00, 08:00, 16:00 UTC)
+def next_update_eta(hours_between=8):
+    now = datetime.now(timezone.utc)
+    anchor = now.replace(minute=0, second=0, microsecond=0)
+    next_run = anchor + timedelta(hours=hours_between - (now.hour % hours_between))
+    if next_run <= now:
+        next_run += timedelta(hours=hours_between)
+    delta = next_run - now
+    total_seconds = int(delta.total_seconds())
+    h = total_seconds // 3600
+    m = (total_seconds % 3600) // 60
+    s = total_seconds % 60
+    return f"{h:02d}:{m:02d}:{s:02d}"
+
+next_update_eta_str = next_update_eta()
+print(f"\n⏱️ Next update ETA: {next_update_eta_str}")
+
 # 6. Top languages
 print(f"\n💻 Top Programming Languages:")
 sorted_langs = sorted(language_stats.items(), key=lambda x: x[1], reverse=True)[:5]
@@ -212,6 +230,7 @@ print(f"   🤖 AI/ML Projects: {len(ai_ml_projects)}")
 print(f"   📝 Total Commits (Est): {estimated_total_commits:,}")
 print(f"   📊 Total Lines of Code: {formatted_lines}")
 print(f"   ⭐ Total Stars: {total_stars}")
+print(f"   ⏱️ Next Update ETA: {next_update_eta_str}")
 print(f"{'='*60}")
 
 # Save results
@@ -227,6 +246,7 @@ results = {
     "total_lines": total_lines,
     "formatted_lines": formatted_lines,
     "total_stars": total_stars,
+    "next_update_eta": next_update_eta_str,
     "top_languages": [{"lang": lang, "size": size} for lang, size in sorted_langs[:5]]
 }
 
@@ -267,6 +287,11 @@ try:
         f'Total_Stars-{total_stars}',
         readme
     )
+    readme = re.sub(
+        r'Next_Update-[\d:]+',
+        f'Next_Update-{next_update_eta_str}',
+        readme
+    )
     
     with open('README.md', 'w', encoding='utf-8') as f:
         f.write(readme)
@@ -278,6 +303,7 @@ try:
     print(f"      • Total_Commits: {estimated_total_commits:,}")
     print(f"      • Lines_of_Code: {formatted_lines}")
     print(f"      • Total_Stars: {total_stars}")
+    print(f"      • Next_Update: {next_update_eta_str}")
 except Exception as e:
     print(f"   ⚠️  Could not update README: {e}")
 
