@@ -104,31 +104,57 @@ if ai_ml_projects:
     for project in ai_ml_projects[:5]:
         print(f"      - {project['name']} ({project['language']}) ⭐ {project['stars']}")
 
-# 3. Get commits
+# 3. Get commits (including organization repos)
 print("\n📝 Getting commit stats...")
+
+# First get viewer's general contribution stats
 graphql_query = '{ viewer { contributionsCollection { totalCommitContributions restrictedContributionsCount } } }'
 commits_result = run_cmd(f'gh api graphql -f query="{graphql_query}"')
+
+viewer_public_commits = 0
+viewer_private_commits = 0
 
 if commits_result:
     try:
         commits_data = json.loads(commits_result)
         if 'data' in commits_data:
-            public_commits = commits_data['data']['viewer']['contributionsCollection']['totalCommitContributions']
-            private_commits = commits_data['data']['viewer']['contributionsCollection']['restrictedContributionsCount']
-            total_commits_year = public_commits + private_commits
-            estimated_total = total_commits_year * 3
-        else:
-            total_commits_year = 0
-            estimated_total = 0
+            viewer_public_commits = commits_data['data']['viewer']['contributionsCollection']['totalCommitContributions']
+            viewer_private_commits = commits_data['data']['viewer']['contributionsCollection']['restrictedContributionsCount']
     except:
-        total_commits_year = 0
-        estimated_total = 0
-else:
-    total_commits_year = 0
-    estimated_total = 0
+        pass
 
-print(f"   ✅ This Year: {total_commits_year}")
-print(f"   ✅ Estimated Total: {estimated_total:,}+")
+viewer_total = viewer_public_commits + viewer_private_commits
+print(f"   ✅ Your Personal Commits (This Year): {viewer_total}")
+print(f"      - Public: {viewer_public_commits}")
+print(f"      - Private: {viewer_private_commits}")
+
+# Estimate total commits across all repos using repo size as proxy
+print(f"\n📊 Estimating total commits from all repos...")
+total_size = 0
+repo_count_with_size = 0
+
+for repo in repos:
+    size = repo.get('size', 0)  # Size in KB
+    if size > 0:
+        total_size += size
+        repo_count_with_size += 1
+
+# Average commits per KB: ~1 commit per 20KB (based on typical repo density)
+# More conservative estimate
+estimated_commits_from_size = (total_size // 50) if total_size > 0 else 0
+
+# Also consider repo count * average activity
+# Average repo has ~20 commits
+estimated_commits_from_count = len(repos) * 20
+
+# Take average of both methods
+estimated_total_commits = max(estimated_commits_from_size, estimated_commits_from_count)
+
+# Add your personal contributions
+estimated_total_commits = estimated_total_commits + (viewer_total * 2)  # Multiply personal by 2 for all-time estimate
+
+print(f"   ✅ Estimated Total Commits (Personal + Orgs, All-Time): {estimated_total_commits:,}+")
+print(f"   (Based on {repo_count_with_size} repos with size data)")
 
 # 4. Calculate lines of code from language API
 print("\n📊 Calculating total lines of code...")
@@ -185,7 +211,7 @@ print(f"   📦 Total Repos: {total_repos}")
 print(f"      - Public: {public_repos}")
 print(f"      - Private: {private_repos}")
 print(f"   🤖 AI/ML Projects: {len(ai_ml_projects)}")
-print(f"   📝 Total Commits (Est): {estimated_total:,}+")
+print(f"   📝 Total Commits (Est): {estimated_total_commits:,}+")
 print(f"   📊 Total Lines of Code: {total_lines:,} ({formatted_lines}+)")
 print(f"   ⭐ Total Stars: {total_stars}")
 print(f"{'='*60}")
@@ -195,10 +221,11 @@ results = {
     "total_repos": total_repos,
     "public_repos": public_repos,
     "private_repos": private_repos,
+    "organizations": len(orgs_list),
     "ai_ml_projects": len(ai_ml_projects),
     "ai_ml_projects_list": ai_ml_projects[:10],
-    "commits_this_year": total_commits_year,
-    "estimated_total_commits": estimated_total,
+    "commits_this_year": viewer_public_commits + viewer_private_commits,
+    "estimated_total_commits": estimated_total_commits,
     "total_lines": total_lines,
     "formatted_lines": formatted_lines,
     "total_stars": total_stars,
@@ -212,7 +239,7 @@ print(f"\n✅ Stats saved to github_stats.json")
 print(f"\n📝 README Update Values:")
 print(f"   Total_Repos: {total_repos}")
 print(f"   AI_ML_Projects: {len(ai_ml_projects)}")
-print(f"   Total_Commits: {estimated_total:,}+")
+print(f"   Total_Commits: {estimated_total_commits:,}+")
 print(f"   Lines_of_Code: {formatted_lines}+")
 print(f"   Total_Stars: {total_stars}")
 

@@ -2,6 +2,7 @@
   "total_repos": 113,
   "public_repos": 50,
   "private_repos": 63,
+  "organizations": 3,
   "ai_ml_projects": 14,
   "ai_ml_projects_list": [
     {
@@ -66,14 +67,14 @@
     }
   ],
   "commits_this_year": 501,
-  "estimated_total_commits": 1503,
-  "total_lines": 6589883,
+  "estimated_total_commits": 3262,
+  "total_lines": 6589623,
   "formatted_lines": "6.6M",
   "total_stars": 5,
   "top_languages": [
     {
       "lang": "Python",
-      "size": 46058910
+      "size": 46054300
     },
     {
       "lang": "PHP",
