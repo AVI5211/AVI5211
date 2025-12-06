@@ -296,12 +296,12 @@ currently_learning: "Advanced Kubernetes & Cloud-Native Tech"
 <!-- Clean Professional Visitor Counter -->
 <p align="center">
   <!-- Main total views badge - BIG and prominent -->
-  <img src="https://img.shields.io/badge/👁️_TOTAL_PROFILE_VIEWS-3,652+-FF6B6B?style=for-the-badge&labelColor=8B5CF6" alt="Total Views" height="45"/>
-  <br/><br/>
+  <!-- <img src="https://img.shields.io/badge/👁️_TOTAL_PROFILE_VIEWS-3,652+-FF6B6B?style=for-the-badge&labelColor=8B5CF6" alt="Total Views" height="45"/>
+  <br/><br/> -->
   <!-- Alternative live counter that actually tracks -->
   <img src="https://komarev.com/ghpvc/?username=AVI5211&label=Current%20Views&color=blueviolet&style=for-the-badge&base=3652" alt="Live Counter"/>
   <br/><br/>
-  <sub>🎯 <b>3,652+</b> amazing visitors and counting! Thanks for being here! ⭐</sub>
+  <sub>🎯 <b></b> Very Amazing visitors and counting! Thanks for being here! ⭐</sub>
 </p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
