@@ -67,15 +67,15 @@
     }
   ],
   "commits_this_year": 438,
-  "estimated_total_commits": 3156,
-  "total_lines": 6647443,
-  "formatted_lines": "6,647,443",
+  "estimated_total_commits": 1723,
+  "total_lines": 6647332,
+  "formatted_lines": "6,647,332",
   "total_stars": 5,
-  "next_update_eta": "00:43:49",
+  "next_update_eta": "00:35:07",
   "top_languages": [
     {
       "lang": "Python",
-      "size": 46044713
+      "size": 46042769
     },
     {
       "lang": "PHP",
