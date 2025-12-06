@@ -15,7 +15,9 @@
 </p>
 
 <p align="center" style="font-size: 17px;">
-  ⏱️ Next update: <img src="https://nextupdate-ldiavmgiqq-uc.a.run.app" alt="countdown" style="vertical-align: middle; height: 20px;" /> • Auto-updates every 8 hours (00:00, 08:00, 16:00 UTC)
+  <span style="display: inline-flex; align-items: center; gap: 5px;">
+    ⏱️ Next update: <img src="https://nextupdate-ldiavmgiqq-uc.a.run.app" alt="countdown" style="vertical-align: middle; height: 17px; margin: 0 3px;" /> • Auto-updates every 8 hours (00:00, 08:00, 16:00 UTC)
+  </span>
 </p>
 
 <p align="center">
