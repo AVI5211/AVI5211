@@ -67,21 +67,17 @@
     }
   ],
   "commits_this_year": 438,
-  "estimated_total_commits": 82777,
-  "estimation_methods": {
-    "disk_usage": 39704,
-    "repo_count": 3420,
-    "years_active": 1642,
-    "personal_deep": 82777
-  },
-  "total_lines": 6647379,
-  "formatted_lines": "6,647,379",
+  "total_commits": 37985,
+  "personal_commits": 37985,
+  "org_commits": 0,
+  "total_lines": 6647425,
+  "formatted_lines": "6,647,425",
   "total_stars": 5,
-  "next_update_eta": "00:30:22",
+  "next_update_eta": "00:20:46",
   "top_languages": [
     {
       "lang": "Python",
-      "size": 46043594
+      "size": 46044400
     },
     {
       "lang": "PHP",
