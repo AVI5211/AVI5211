@@ -11,7 +11,7 @@
   <img src="https://img.shields.io/badge/Total_Repos-113-blue?style=flat-square&logo=github" alt="Total Repos" />
   <img src="https://img.shields.io/badge/AI_ML_Projects-14-purple?style=flat-square&logo=tensorflow" alt="AI/ML Projects" />
   <img src="https://img.shields.io/badge/Total_Commits-3,134-green?style=flat-square&logo=git" alt="Total Commits" />
-  <img src="https://img.shields.io/badge/Lines_of_Code-6,589,315-orange?style=flat-square&logo=codecov" alt="Lines of Code" />
+  <img src="https://img.shields.io/badge/Lines_of_Code-6,589,334-orange?style=flat-square&logo=codecov" alt="Lines of Code" />
 </p>
 
 <p align="center">
@@ -209,7 +209,7 @@ currently_learning: "Advanced Kubernetes & Cloud-Native Tech"
 
 | 📦 Total Repositories | 🔓 Public | 🔒 Private | 🏢 Organizations | 👥 Followers | 👤 Following |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| **113** | 50 | 63 | **3** | **16** | 3 |
+| **113** | 50 | 63 | **3** | **3** | 3 |
 
 **Organizations:** `alaska-app` • `aviya-in` • `AIVault-in`
 
