@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  <sub>⏱️ Auto-updates every 8 hours (00:00, 08:00, 16:00 UTC)</sub>
+  <sub>⏱️ Next update: <img src="https://nextupdate-ldiavmgiqq-uc.a.run.app" alt="countdown" style="vertical-align: middle; height: 16px;" /> • Auto-updates every 8 hours (00:00, 08:00, 16:00 UTC)</sub>
 </p>
 
 <p align="center">
