@@ -96,12 +96,14 @@ exports.nextUpdate = onRequest((req, res) => {
   );
   const eta = nextEta(lastRunAt, hoursBetween);
 
-  // Simple green text SVG - no box
+  // Simple green text SVG - no box, matched to README text size
+  const fontFamily = "-apple-system, BlinkMacSystemFont, Segoe UI, " +
+      "Helvetica, Arial, sans-serif";
   // eslint-disable-next-line max-len
   const svg = `<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="80" height="24" role="img" aria-label="Next Update: ${eta}">
+<svg xmlns="http://www.w3.org/2000/svg" width="85" height="20" role="img" aria-label="Next Update: ${eta}">
   <title>Next Update: ${eta}</title>
-  <text x="0" y="18" font-family="Arial, sans-serif" font-size="17" 
+  <text x="0" y="15" font-family="${fontFamily}" font-size="16" 
         font-weight="bold" fill="#00ff00">${eta}</text>
 </svg>`;
 
