@@ -96,21 +96,13 @@ exports.nextUpdate = onRequest((req, res) => {
   );
   const eta = nextEta(lastRunAt, hoursBetween);
 
-  // SVG badge with bright colors for visibility
+  // Simple green text SVG - no box
   // eslint-disable-next-line max-len
   const svg = `<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="28" role="img" aria-label="Next Update: ${eta}">
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="24" role="img" aria-label="Next Update: ${eta}">
   <title>Next Update: ${eta}</title>
-  <defs>
-    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#00ff00;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#00cc00;stop-opacity:1" />
-    </linearGradient>
-  </defs>
-  <rect width="200" height="28" rx="4" fill="url(#grad)"/>
-  <rect x="2" y="2" width="196" height="24" rx="3" fill="#000"/>
-  <text x="100" y="20" font-family="Arial, sans-serif" font-size="16" 
-        font-weight="bold" fill="#00ff00" text-anchor="middle">⏱️ ${eta}</text>
+  <text x="0" y="18" font-family="Arial, sans-serif" font-size="17" 
+        font-weight="bold" fill="#00ff00">${eta}</text>
 </svg>`;
 
   // Force no caching to ensure real-time updates
