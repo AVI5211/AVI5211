@@ -1,0 +1,97 @@
+{
+  "total_repos": 114,
+  "public_repos": 50,
+  "private_repos": 64,
+  "organizations": 3,
+  "ai_ml_projects": 14,
+  "ai_ml_projects_list": [
+    {
+      "name": "rag-from-scratch",
+      "url": "https://github.com/AVI5211/rag-from-scratch",
+      "language": "JavaScript",
+      "stars": 0
+    },
+    {
+      "name": "email-scrapper-y-combinator",
+      "url": "https://github.com/AVI5211/email-scrapper-y-combinator",
+      "language": "Python",
+      "stars": 0
+    },
+    {
+      "name": "mlops-pipeline",
+      "url": "https://github.com/AVI5211/mlops-pipeline",
+      "language": "Python",
+      "stars": 0
+    },
+    {
+      "name": "adk-python-agent-dev-kit",
+      "url": "https://github.com/AVI5211/adk-python-agent-dev-kit",
+      "language": "Python",
+      "stars": 0
+    },
+    {
+      "name": "-AI-ML-Hands-On-Large-Language-Models",
+      "url": "https://github.com/AVI5211/-AI-ML-Hands-On-Large-Language-Models",
+      "language": "Jupyter Notebook",
+      "stars": 0
+    },
+    {
+      "name": "pipeshub-ai-searchanythingacrossstheanyplatform-",
+      "url": "https://github.com/AVI5211/pipeshub-ai-searchanythingacrossstheanyplatform-",
+      "language": "TypeScript",
+      "stars": 0
+    },
+    {
+      "name": "google-cloud-compute-machine-types",
+      "url": "https://github.com/AVI5211/google-cloud-compute-machine-types",
+      "language": "Perl",
+      "stars": 0
+    },
+    {
+      "name": "Machine-Learning-Interviews",
+      "url": "https://github.com/AVI5211/Machine-Learning-Interviews",
+      "language": "Jupyter Notebook",
+      "stars": 0
+    },
+    {
+      "name": "MoneyPrinterTurbo",
+      "url": "https://github.com/AVI5211/MoneyPrinterTurbo",
+      "language": "Python",
+      "stars": 0
+    },
+    {
+      "name": "90DaysOfDevOps",
+      "url": "https://github.com/AVI5211/90DaysOfDevOps",
+      "language": "Shell",
+      "stars": 0
+    }
+  ],
+  "commits_this_year": 438,
+  "estimated_total_commits": 3156,
+  "total_lines": 6647443,
+  "formatted_lines": "6,647,443",
+  "total_stars": 5,
+  "next_update_eta": "00:43:49",
+  "top_languages": [
+    {
+      "lang": "Python",
+      "size": 46044713
+    },
+    {
+      "lang": "PHP",
+      "size": 28985661
+    },
+    {
+      "lang": "TypeScript",
+      "size": 27268774
+    },
+    {
+      "lang": "Jupyter Notebook",
+      "size": 4639359
+    },
+    {
+      "lang": "CSS",
+      "size": 2798583
+    }
+  ]
+}
