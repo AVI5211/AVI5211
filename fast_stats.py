@@ -293,6 +293,11 @@ try:
         readme
     )
     
+    # Update Real-Time GitHub Statistics table
+    stats_table_pattern = r'(\| \*\*)\d+(\*\* \| )\d+( \| )\d+( \| \*\*\d+\*\* \| \*\*)\d+(\*\* \| \d+ \|)'
+    stats_table_replacement = rf'\g<1>{total_repos}\g<2>{public_repos}\g<3>{private_repos}\g<4>{len(orgs_list)}\g<5>'
+    readme = re.sub(stats_table_pattern, stats_table_replacement, readme)
+    
     with open('README.md', 'w', encoding='utf-8') as f:
         f.write(readme)
     

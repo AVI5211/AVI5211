@@ -209,7 +209,7 @@ currently_learning: "Advanced Kubernetes & Cloud-Native Tech"
 
 | 📦 Total Repositories | 🔓 Public | 🔒 Private | 🏢 Organizations | 👥 Followers | 👤 Following |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| **106** | 45 | 41 | **3** | **15** | 3 |
+| **113** | 50 | 63 | **3** | **16** | 3 |
 
 **Organizations:** `alaska-app` • `aviya-in` • `AIVault-in`
 
