@@ -1,103 +1,95 @@
 {
-  "total_repos": 86,
-  "personal_repos": 86,
-  "org_repos": 0,
-  "ai_ml_projects": 12,
+  "total_repos": 113,
+  "public_repos": 50,
+  "private_repos": 63,
+  "ai_ml_projects": 14,
   "ai_ml_projects_list": [
+    {
+      "name": "rag-from-scratch",
+      "url": "https://github.com/AVI5211/rag-from-scratch",
+      "language": "JavaScript",
+      "stars": 0
+    },
     {
       "name": "email-scrapper-y-combinator",
       "url": "https://github.com/AVI5211/email-scrapper-y-combinator",
-      "description": "",
+      "language": "Python",
+      "stars": 0
+    },
+    {
+      "name": "mlops-pipeline",
+      "url": "https://github.com/AVI5211/mlops-pipeline",
       "language": "Python",
       "stars": 0
     },
     {
       "name": "adk-python-agent-dev-kit",
       "url": "https://github.com/AVI5211/adk-python-agent-dev-kit",
-      "description": "An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.",
       "language": "Python",
       "stars": 0
     },
     {
       "name": "-AI-ML-Hands-On-Large-Language-Models",
       "url": "https://github.com/AVI5211/-AI-ML-Hands-On-Large-Language-Models",
-      "description": "Official code repo for the O'Reilly Book - \"Hands-On Large Language Models\"",
       "language": "Jupyter Notebook",
       "stars": 0
     },
     {
       "name": "pipeshub-ai-searchanythingacrossstheanyplatform-",
       "url": "https://github.com/AVI5211/pipeshub-ai-searchanythingacrossstheanyplatform-",
-      "description": "Workplace AI",
       "language": "TypeScript",
       "stars": 0
     },
     {
       "name": "google-cloud-compute-machine-types",
       "url": "https://github.com/AVI5211/google-cloud-compute-machine-types",
-      "description": "\u2601\ufe0f  Choose the optimal Google Compute Engine machine type or instance in the many Google Cloud Platform regions",
       "language": "Perl",
       "stars": 0
     },
     {
       "name": "Machine-Learning-Interviews",
       "url": "https://github.com/AVI5211/Machine-Learning-Interviews",
-      "description": "This repo is meant to serve as a guide for Machine Learning/AI technical interviews. ",
       "language": "Jupyter Notebook",
       "stars": 0
     },
     {
       "name": "MoneyPrinterTurbo",
       "url": "https://github.com/AVI5211/MoneyPrinterTurbo",
-      "description": "Generate short videos with one click using AI LLM.",
       "language": "Python",
       "stars": 0
     },
     {
       "name": "90DaysOfDevOps",
       "url": "https://github.com/AVI5211/90DaysOfDevOps",
-      "description": "This repository started out as a learning in public project for myself and has now become a structured learning map for many in the community. We have 3 years under our belt covering all things DevOps, including Principles, Processes, Tooling and Use Cases surrounding this vast topic. ",
       "language": "Shell",
-      "stars": 0
-    },
-    {
-      "name": "kubectl-ai",
-      "url": "https://github.com/AVI5211/kubectl-ai",
-      "description": "AI powered Kubernetes Assistant",
-      "language": "Go",
-      "stars": 0
-    },
-    {
-      "name": "Roadmap-to-ML",
-      "url": "https://github.com/AVI5211/Roadmap-to-ML",
-      "description": "Roadmap to Ml Basics",
-      "language": "",
-      "stars": 0
-    },
-    {
-      "name": "Highway-Guard-Next-Gen-Waste-Detection-main",
-      "url": "https://github.com/AVI5211/Highway-Guard-Next-Gen-Waste-Detection-main",
-      "description": "YOUTUBE LIVE ",
-      "language": "Python",
-      "stars": 0
-    },
-    {
-      "name": "Reverse_proxy_nginx",
-      "url": "https://github.com/AVI5211/Reverse_proxy_nginx",
-      "description": "Reverse proxy through nginx connecting 3 containers to one port ",
-      "language": "Dockerfile",
       "stars": 0
     }
   ],
-  "commits_this_year": 510,
-  "estimated_total_commits": 1530,
-  "total_lines": 2991923,
-  "formatted_lines": "3.0M",
+  "commits_this_year": 501,
+  "estimated_total_commits": 1503,
+  "total_lines": 6589883,
+  "formatted_lines": "6.6M",
   "total_stars": 5,
   "top_languages": [
-    [
-      "Unknown",
-      119676951
-    ]
+    {
+      "lang": "Python",
+      "size": 46058910
+    },
+    {
+      "lang": "PHP",
+      "size": 28985661
+    },
+    {
+      "lang": "TypeScript",
+      "size": 27268774
+    },
+    {
+      "lang": "Jupyter Notebook",
+      "size": 4639359
+    },
+    {
+      "lang": "CSS",
+      "size": 2798583
+    }
   ]
 }
