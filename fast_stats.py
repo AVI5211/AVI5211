@@ -3,11 +3,13 @@
 """
 Fast GitHub Stats Calculator - Complete Profile Statistics
 Includes: personal repos, private repos, AI/ML projects, commits, LOC, stars
+Also updates README.md with the latest statistics
 """
 
 import json
 import subprocess
 import sys
+import re
 import io
 
 # Fix encoding on Windows
@@ -236,10 +238,52 @@ with open('github_stats.json', 'w', encoding='utf-8') as f:
     json.dump(results, f, indent=2, ensure_ascii=False)
 
 print(f"\n✅ Stats saved to github_stats.json")
-print(f"\n📝 README Update Values:")
-print(f"   Total_Repos: {total_repos}")
-print(f"   AI_ML_Projects: {len(ai_ml_projects)}")
-print(f"   Total_Commits: {estimated_total_commits:,}+")
-print(f"   Lines_of_Code: {formatted_lines}+")
-print(f"   Total_Stars: {total_stars}")
+
+# Update README.md with latest statistics
+print(f"\n📝 Updating README.md...")
+try:
+    with open('README.md', 'r', encoding='utf-8') as f:
+        readme = f.read()
+    
+    # Update various badge patterns
+    readme = re.sub(
+        r'Total_Repos-\d+',
+        f'Total_Repos-{total_repos}',
+        readme
+    )
+    readme = re.sub(
+        r'AI_ML_Projects-\d+',
+        f'AI_ML_Projects-{len(ai_ml_projects)}',
+        readme
+    )
+    readme = re.sub(
+        r'Total_Commits-[\d,]+%2B',
+        f'Total_Commits-{estimated_total_commits:,}%2B',
+        readme
+    )
+    readme = re.sub(
+        r'Lines_of_Code-[\d,\.KMB]+',
+        f'Lines_of_Code-{formatted_lines}',
+        readme
+    )
+    readme = re.sub(
+        r'Total_Stars-\d+',
+        f'Total_Stars-{total_stars}',
+        readme
+    )
+    
+    with open('README.md', 'w', encoding='utf-8') as f:
+        f.write(readme)
+    
+    print(f"   ✅ README.md updated successfully!")
+    print(f"\n📊 Updated badges:")
+    print(f"      • Total_Repos: {total_repos}")
+    print(f"      • AI_ML_Projects: {len(ai_ml_projects)}")
+    print(f"      • Total_Commits: {estimated_total_commits:,}+")
+    print(f"      • Lines_of_Code: {formatted_lines}+")
+    print(f"      • Total_Stars: {total_stars}")
+except Exception as e:
+    print(f"   ⚠️  Could not update README: {e}")
+
+print(f"\n🎉 All done!")
 
