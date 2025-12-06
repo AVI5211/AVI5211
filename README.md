@@ -14,9 +14,9 @@
   <img src="https://img.shields.io/badge/Lines_of_Code-6,589,744-orange?style=flat-square&logo=codecov" alt="Lines of Code" />
 </p>
 
-<!-- Live Countdown Badge (refreshes every 60 seconds) -->
+<!-- Live Countdown Badge (refreshes in real-time, no caching) -->
 <p align="center">
-  <img src="https://img.shields.io/endpoint?url=https://us-central1-aviraj-portfolio.cloudfunctions.net/nextUpdate&cacheSeconds=60&logo=clockify" alt="Next Update Countdown" />
+  <img src="https://img.shields.io/endpoint?url=https://nextupdate-ldiavmgiqq-uc.a.run.app&cacheSeconds=0&logo=clockify" alt="Next Update Countdown" />
 </p>
 
 <p align="center">
