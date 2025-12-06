@@ -73,3 +73,7 @@ node_modules/
 
 # Private engine repo (nested clone)
 profile-engine-python/
+functions/
+countdown-server/
+firebase.json
+.firebaserc
