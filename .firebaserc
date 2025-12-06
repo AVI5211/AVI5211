@@ -1,8 +1,0 @@
-{
-  "projects": {
-    "default": "github-numbers-cron",
-    "cron": "aviraj-portfolio"
-  },
-  "targets": {},
-  "etags": {}
-}
