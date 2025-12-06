@@ -155,7 +155,7 @@ estimated_total_commits = max(estimated_commits_from_size, estimated_commits_fro
 # Add your personal contributions
 estimated_total_commits = estimated_total_commits + (viewer_total * 2)  # Multiply personal by 2 for all-time estimate
 
-print(f"   ✅ Estimated Total Commits (Personal + Orgs, All-Time): {estimated_total_commits:,}+")
+print(f"   ✅ Estimated Total Commits (Personal + Orgs, All-Time): {estimated_total_commits:,}")
 print(f"   (Based on {repo_count_with_size} repos with size data)")
 
 # 4. Calculate lines of code from language API
@@ -186,14 +186,10 @@ if processed_count > 0:
 
 total_lines = total_bytes // 40 if total_bytes > 0 else 0
 
-if total_lines >= 1000000:
-    formatted_lines = f"{total_lines / 1000000:.1f}M"
-elif total_lines >= 1000:
-    formatted_lines = f"{total_lines // 1000}K"
-else:
-    formatted_lines = str(total_lines)
+# Use full numbers with commas (no shorthand)
+formatted_lines = f"{total_lines:,}"
 
-print(f"   ✅ Total Lines of Code: {total_lines:,} ({formatted_lines}+)")
+print(f"   ✅ Total Lines of Code: {formatted_lines}")
 print(f"   (Sampled {processed_count} repos and extrapolated)")
 
 # 5. Calculate stars
@@ -213,8 +209,8 @@ print(f"   📦 Total Repos: {total_repos}")
 print(f"      - Public: {public_repos}")
 print(f"      - Private: {private_repos}")
 print(f"   🤖 AI/ML Projects: {len(ai_ml_projects)}")
-print(f"   📝 Total Commits (Est): {estimated_total_commits:,}+")
-print(f"   📊 Total Lines of Code: {total_lines:,} ({formatted_lines}+)")
+print(f"   📝 Total Commits (Est): {estimated_total_commits:,}")
+print(f"   📊 Total Lines of Code: {formatted_lines}")
 print(f"   ⭐ Total Stars: {total_stars}")
 print(f"{'='*60}")
 
@@ -257,12 +253,12 @@ try:
         readme
     )
     readme = re.sub(
-        r'Total_Commits-[\d,]+%2B',
-        f'Total_Commits-{estimated_total_commits:,}%2B',
+        r'Total_Commits-[\d,]+(?:%2B)?',
+        f'Total_Commits-{estimated_total_commits:,}',
         readme
     )
     readme = re.sub(
-        r'Lines_of_Code-[\d,\.KMB]+',
+        r'Lines_of_Code-[\d,\.KMB]+(?:%2B)?',
         f'Lines_of_Code-{formatted_lines}',
         readme
     )
@@ -279,8 +275,8 @@ try:
     print(f"\n📊 Updated badges:")
     print(f"      • Total_Repos: {total_repos}")
     print(f"      • AI_ML_Projects: {len(ai_ml_projects)}")
-    print(f"      • Total_Commits: {estimated_total_commits:,}+")
-    print(f"      • Lines_of_Code: {formatted_lines}+")
+    print(f"      • Total_Commits: {estimated_total_commits:,}")
+    print(f"      • Lines_of_Code: {formatted_lines}")
     print(f"      • Total_Stars: {total_stars}")
 except Exception as e:
     print(f"   ⚠️  Could not update README: {e}")

@@ -2,14 +2,15 @@ name: Update GitHub Stats
 
 on:
   schedule:
-    # Run every day at 00:00 UTC
-    - cron: '0 0 * * *'
+    # Run every 8 hours
+    - cron: '0 */8 * * *'
   workflow_dispatch: # Allow manual trigger
   push:
     branches:
       - main
     paths:
-      - 'update_github_stats.py'
+      - 'fast_stats.py'
+      - 'README.md'
 
 jobs:
   update-stats:
