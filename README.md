@@ -10,9 +10,13 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Total_Repos-113-blue?style=flat-square&logo=github" alt="Total Repos" />
   <img src="https://img.shields.io/badge/AI_ML_Projects-14-purple?style=flat-square&logo=tensorflow" alt="AI/ML Projects" />
-  <img src="https://img.shields.io/badge/Next_Update-02:40:49-brightgreen?style=flat-square&logo=clockify" alt="Next Update ETA" />
   <img src="https://img.shields.io/badge/Total_Commits-3,262-green?style=flat-square&logo=git" alt="Total Commits" />
   <img src="https://img.shields.io/badge/Lines_of_Code-6,589,744-orange?style=flat-square&logo=codecov" alt="Lines of Code" />
+</p>
+
+<!-- Live Countdown Badge (refreshes every 60 seconds) -->
+<p align="center">
+  <img src="https://img.shields.io/endpoint?url=https://us-central1-aviraj-portfolio.cloudfunctions.net/nextUpdate&cacheSeconds=60&logo=clockify" alt="Next Update Countdown" />
 </p>
 
 <p align="center">
