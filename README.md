@@ -10,13 +10,13 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Total_Repos-113-blue?style=flat-square&logo=github" alt="Total Repos" />
   <img src="https://img.shields.io/badge/AI_ML_Projects-14-purple?style=flat-square&logo=tensorflow" alt="AI/ML Projects" />
-  <img src="https://img.shields.io/badge/Total_Commits-3,134-green?style=flat-square&logo=git" alt="Total Commits" />
-  <img src="https://img.shields.io/badge/Lines_of_Code-6,589,188-orange?style=flat-square&logo=codecov" alt="Lines of Code" />
+  <img src="https://img.shields.io/badge/Total_Commits-3,262-green?style=flat-square&logo=git" alt="Total Commits" />
+  <img src="https://img.shields.io/badge/Lines_of_Code-6,589,340-orange?style=flat-square&logo=codecov" alt="Lines of Code" />
 </p>
 
-<!-- Live Countdown Badge (dynamic SVG, updates every second) -->
+<!-- Countdown Badge (updates every 8 hours) -->
 <p align="center">
-  <img src="https://v0-flask-app-code-review-4tr0uy57o-avi5211s-projects.vercel.app/api/countdown?t=1" alt="Next Update Countdown" />
+  <img src="https://img.shields.io/badge/Next_Update-01:48:58-brightgreen?style=flat-square&logo=clockify" alt="Next Update Countdown" />
 </p>
 
 <p align="center">
