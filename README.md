@@ -10,7 +10,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Total_Repos-115-blue?style=flat-square&logo=github" alt="Total Repos" />
   <img src="https://img.shields.io/badge/AI_ML_Projects-14-purple?style=flat-square&logo=tensorflow" alt="AI/ML Projects" />
-  <img src="https://img.shields.io/badge/Total_Commits-37,998-green?style=flat-square&logo=git" alt="Total Commits" />
+  <img src="https://img.shields.io/badge/Total_Commits-37,999-green?style=flat-square&logo=git" alt="Total Commits" />
   <img src="https://img.shields.io/badge/Lines_of_Code-6,705,736-orange?style=flat-square&logo=codecov" alt="Lines of Code" />
 </p>
 
