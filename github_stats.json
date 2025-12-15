@@ -1,10 +1,16 @@
 {
-  "total_repos": 117,
-  "public_repos": 50,
+  "total_repos": 118,
+  "public_repos": 51,
   "private_repos": 67,
   "organizations": 4,
-  "ai_ml_projects": 14,
+  "ai_ml_projects": 15,
   "ai_ml_projects_list": [
+    {
+      "name": "Google-agent-starter-pack",
+      "url": "https://github.com/AVI5211/Google-agent-starter-pack",
+      "language": "Python",
+      "stars": 0
+    },
     {
       "name": "rag-from-scratch",
       "url": "https://github.com/AVI5211/rag-from-scratch",
@@ -58,26 +64,20 @@
       "url": "https://github.com/AVI5211/MoneyPrinterTurbo",
       "language": "Python",
       "stars": 0
-    },
-    {
-      "name": "90DaysOfDevOps",
-      "url": "https://github.com/AVI5211/90DaysOfDevOps",
-      "language": "Shell",
-      "stars": 0
     }
   ],
   "commits_this_year": 430,
-  "total_commits": 38020,
-  "personal_commits": 38020,
+  "total_commits": 38570,
+  "personal_commits": 38570,
   "org_commits": 0,
-  "total_lines": 6823597,
-  "formatted_lines": "6,823,597",
+  "total_lines": 6954313,
+  "formatted_lines": "6,954,313",
   "total_stars": 5,
-  "next_update_eta": "07:27:45",
+  "next_update_eta": "07:29:25",
   "top_languages": [
     {
       "lang": "Python",
-      "size": 46044400
+      "size": 47009956
     },
     {
       "lang": "PHP",
@@ -85,15 +85,15 @@
     },
     {
       "lang": "TypeScript",
-      "size": 27268774
+      "size": 27362544
     },
     {
       "lang": "Jupyter Notebook",
-      "size": 4639359
+      "size": 4907527
     },
     {
       "lang": "CSS",
-      "size": 2803682
+      "size": 2683763
     }
   ]
 }
