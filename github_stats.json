@@ -1,10 +1,16 @@
 {
-  "total_repos": 160,
-  "public_repos": 60,
+  "total_repos": 164,
+  "public_repos": 64,
   "private_repos": 100,
   "organizations": 6,
-  "ai_ml_projects": 29,
+  "ai_ml_projects": 31,
   "ai_ml_projects_list": [
+    {
+      "name": "cloud-custodian",
+      "url": "https://github.com/AVI5211/cloud-custodian",
+      "language": "Python",
+      "stars": 0
+    },
     {
       "name": "moltbot-AI",
       "url": "https://github.com/AVI5211/moltbot-AI",
@@ -58,42 +64,36 @@
       "url": "https://github.com/AVI5211/adk-python-agent-dev-kit",
       "language": "Python",
       "stars": 0
-    },
-    {
-      "name": "-AI-ML-Hands-On-Large-Language-Models",
-      "url": "https://github.com/AVI5211/-AI-ML-Hands-On-Large-Language-Models",
-      "language": "Jupyter Notebook",
-      "stars": 0
     }
   ],
-  "commits_this_year": 585,
-  "total_commits": 47584,
-  "personal_commits": 47584,
+  "commits_this_year": 586,
+  "total_commits": 59501,
+  "personal_commits": 59501,
   "org_commits": 0,
-  "total_lines": 10891656,
-  "formatted_lines": "10,891,656",
+  "total_lines": 13608241,
+  "formatted_lines": "13,608,241",
   "total_stars": 4,
-  "next_update_eta": "07:11:58",
+  "next_update_eta": "07:31:45",
   "top_languages": [
     {
       "lang": "Python",
-      "size": 47531287
+      "size": 65686131
     },
     {
       "lang": "TypeScript",
-      "size": 44545442
+      "size": 49641668
     },
     {
       "lang": "PHP",
       "size": 27770234
     },
     {
-      "lang": "Jupyter Notebook",
-      "size": 4907527
+      "lang": "Go",
+      "size": 5242746
     },
     {
-      "lang": "Swift",
-      "size": 2627390
+      "lang": "Jupyter Notebook",
+      "size": 4907527
     }
   ]
 }
