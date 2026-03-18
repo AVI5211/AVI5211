@@ -8,10 +8,10 @@
 
 <!-- Comprehensive Stats Badges -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Total_Repos-165-blue?style=flat-square&logo=github" alt="Total Repos" />
-  <img src="https://img.shields.io/badge/AI_ML_Projects-31-purple?style=flat-square&logo=tensorflow" alt="AI/ML Projects" />
-  <img src="https://img.shields.io/badge/Total_Commits-59,559-green?style=flat-square&logo=git" alt="Total Commits" />
-  <img src="https://img.shields.io/badge/Lines_of_Code-13,691,218-orange?style=flat-square&logo=codecov" alt="Lines of Code" />
+  <img src="https://img.shields.io/badge/Total_Repos-166-blue?style=flat-square&logo=github" alt="Total Repos" />
+  <img src="https://img.shields.io/badge/AI_ML_Projects-32-purple?style=flat-square&logo=tensorflow" alt="AI/ML Projects" />
+  <img src="https://img.shields.io/badge/Total_Commits-0-green?style=flat-square&logo=git" alt="Total Commits" />
+  <img src="https://img.shields.io/badge/Lines_of_Code-13,752,392-orange?style=flat-square&logo=codecov" alt="Lines of Code" />
 </p>
 
 <p align="center">
@@ -209,7 +209,7 @@ currently_learning: "Advanced Kubernetes & Cloud-Native Tech"
 
 | 📦 Total Repositories | 🔓 Public | 🔒 Private | 🏢 Organizations | 👥 Followers | 👤 Following |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| **165** | 65 | 100 | **3** | **6** | 3 |
+| **166** | 66 | 100 | **3** | **6** | 3 |
 
 **Organizations:** `alaska-app` • `aviya-in` • `AIVault-in`
 
