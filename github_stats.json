@@ -1,10 +1,16 @@
 {
-  "total_repos": 170,
-  "public_repos": 69,
+  "total_repos": 171,
+  "public_repos": 70,
   "private_repos": 101,
   "organizations": 6,
-  "ai_ml_projects": 35,
+  "ai_ml_projects": 36,
   "ai_ml_projects_list": [
+    {
+      "name": "multica",
+      "url": "https://github.com/AVI5211/multica",
+      "language": "TypeScript",
+      "stars": 0
+    },
     {
       "name": "CopilotKit",
       "url": "https://github.com/AVI5211/CopilotKit",
@@ -58,30 +64,24 @@
       "url": "https://github.com/AVI5211/Voice-cloner-ai",
       "language": "Python",
       "stars": 0
-    },
-    {
-      "name": "Google-agent-starter-pack",
-      "url": "https://github.com/AVI5211/Google-agent-starter-pack",
-      "language": "Python",
-      "stars": 0
     }
   ],
-  "commits_this_year": 660,
-  "total_commits": 66428,
-  "personal_commits": 66428,
+  "commits_this_year": 661,
+  "total_commits": 68459,
+  "personal_commits": 68459,
   "org_commits": 0,
-  "total_lines": 14749740,
-  "formatted_lines": "14,749,740",
+  "total_lines": 15023627,
+  "formatted_lines": "15,023,627",
   "total_stars": 4,
-  "next_update_eta": "07:25:44",
+  "next_update_eta": "07:24:38",
   "top_languages": [
     {
       "lang": "Python",
-      "size": 67429895
+      "size": 67229681
     },
     {
       "lang": "TypeScript",
-      "size": 54525116
+      "size": 55874749
     },
     {
       "lang": "PHP",
@@ -89,7 +89,7 @@
     },
     {
       "lang": "Go",
-      "size": 4956581
+      "size": 5960707
     },
     {
       "lang": "Jupyter Notebook",
