@@ -1,10 +1,16 @@
 {
-  "total_repos": 172,
-  "public_repos": 70,
+  "total_repos": 173,
+  "public_repos": 71,
   "private_repos": 102,
   "organizations": 6,
-  "ai_ml_projects": 36,
+  "ai_ml_projects": 37,
   "ai_ml_projects_list": [
+    {
+      "name": "VibeVoice",
+      "url": "https://github.com/AVI5211/VibeVoice",
+      "language": "Python",
+      "stars": 0
+    },
     {
       "name": "multica",
       "url": "https://github.com/AVI5211/multica",
@@ -58,26 +64,20 @@
       "url": "https://github.com/AVI5211/Impossible-Search-Natural-Language-Photo-Search-Platform-also-known-internally-as-Mafia-Search-",
       "language": "Python",
       "stars": 0
-    },
-    {
-      "name": "Voice-cloner-ai",
-      "url": "https://github.com/AVI5211/Voice-cloner-ai",
-      "language": "Python",
-      "stars": 0
     }
   ],
-  "commits_this_year": 744,
-  "total_commits": 68463,
-  "personal_commits": 68463,
+  "commits_this_year": 745,
+  "total_commits": 68574,
+  "personal_commits": 68574,
   "org_commits": 0,
-  "total_lines": 15111485,
-  "formatted_lines": "15,111,485",
+  "total_lines": 15231714,
+  "formatted_lines": "15,231,714",
   "total_stars": 4,
-  "next_update_eta": "07:49:04",
+  "next_update_eta": "07:23:14",
   "top_languages": [
     {
       "lang": "Python",
-      "size": 67229681
+      "size": 67822244
     },
     {
       "lang": "TypeScript",
@@ -93,7 +93,7 @@
     },
     {
       "lang": "Jupyter Notebook",
-      "size": 4907527
+      "size": 4689205
     }
   ]
 }
