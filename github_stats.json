@@ -66,14 +66,14 @@
       "stars": 0
     }
   ],
-  "commits_this_year": 1116,
-  "total_commits": 68727,
-  "personal_commits": 68727,
+  "commits_this_year": 1103,
+  "total_commits": 68735,
+  "personal_commits": 68735,
   "org_commits": 0,
   "total_lines": 12757733,
   "formatted_lines": "12,757,733",
   "total_stars": 4,
-  "next_update_eta": "07:36:35",
+  "next_update_eta": "07:11:08",
   "top_languages": [
     {
       "lang": "TypeScript",
