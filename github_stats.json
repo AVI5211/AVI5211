@@ -1,7 +1,7 @@
 {
-  "total_repos": 190,
+  "total_repos": 191,
   "public_repos": 73,
-  "private_repos": 117,
+  "private_repos": 118,
   "organizations": 7,
   "ai_ml_projects": 39,
   "ai_ml_projects_list": [
@@ -66,26 +66,26 @@
       "stars": 0
     }
   ],
-  "commits_this_year": 1247,
+  "commits_this_year": 1250,
   "total_commits": 68784,
   "personal_commits": 68784,
   "org_commits": 0,
-  "total_lines": 12825234,
-  "formatted_lines": "12,825,234",
+  "total_lines": 12355241,
+  "formatted_lines": "12,355,241",
   "total_stars": 4,
-  "next_update_eta": "06:53:16",
+  "next_update_eta": "07:30:38",
   "top_languages": [
     {
       "lang": "TypeScript",
-      "size": 55874749
-    },
-    {
-      "lang": "Python",
-      "size": 27838296
+      "size": 51850327
     },
     {
       "lang": "PHP",
       "size": 27770234
+    },
+    {
+      "lang": "Python",
+      "size": 26276657
     },
     {
       "lang": "Go",
