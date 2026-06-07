@@ -10,8 +10,8 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Total_Repos-192-blue?style=flat-square&logo=github" alt="Total Repos" />
   <img src="https://img.shields.io/badge/AI_ML_Projects-40-purple?style=flat-square&logo=tensorflow" alt="AI/ML Projects" />
-  <img src="https://img.shields.io/badge/Total_Commits-1,985-green?style=flat-square&logo=git" alt="Total Commits" />
-  <img src="https://img.shields.io/badge/Lines_of_Code-632,811-orange?style=flat-square&logo=codecov" alt="Lines of Code" />
+  <img src="https://img.shields.io/badge/Total_Commits-1,987-green?style=flat-square&logo=git" alt="Total Commits" />
+  <img src="https://img.shields.io/badge/Lines_of_Code-632,812-orange?style=flat-square&logo=codecov" alt="Lines of Code" />
 </p>
 
 <p align="center">
@@ -211,7 +211,7 @@ currently_learning: "Advanced Kubernetes & Cloud-Native Tech"
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | **192** | 74 | 118 | **7** | **7** | 3 |
 
-**Organizations:** `alaska-app` • `aviya-in` • `AIVault-in` • `Audiome-25` • `alaska-clients` • `DYP-ACS` • `InfraLab-foundry`
+**Organizations:** `alaska-app` • `aviya-in` • `AIVault-in` • `alaska-clients` • `DYP-ACS`
 
 </div>
 
