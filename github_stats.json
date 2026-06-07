@@ -1,10 +1,16 @@
 {
-  "total_repos": 191,
-  "public_repos": 73,
+  "total_repos": 192,
+  "public_repos": 74,
   "private_repos": 118,
   "organizations": 7,
-  "ai_ml_projects": 39,
+  "ai_ml_projects": 40,
   "ai_ml_projects_list": [
+    {
+      "name": "odysseus",
+      "url": "https://github.com/AVI5211/odysseus",
+      "language": "Python",
+      "stars": 0
+    },
     {
       "name": "VibeVoice",
       "url": "https://github.com/AVI5211/VibeVoice",
@@ -58,42 +64,36 @@
       "url": "https://github.com/AVI5211/azure-aws-gcp-devsecops-mlops-batch-18",
       "language": "HTML",
       "stars": 0
-    },
-    {
-      "name": "Impossible-Search-Natural-Language-Photo-Search-Platform-also-known-internally-as-Mafia-Search-",
-      "url": "https://github.com/AVI5211/Impossible-Search-Natural-Language-Photo-Search-Platform-also-known-internally-as-Mafia-Search-",
-      "language": "Python",
-      "stars": 0
     }
   ],
-  "commits_this_year": 1301,
-  "total_commits": 68805,
-  "personal_commits": 68805,
+  "commits_this_year": 1303,
+  "total_commits": 69762,
+  "personal_commits": 69762,
   "org_commits": 0,
-  "total_lines": 11938958,
-  "formatted_lines": "11,938,958",
+  "total_lines": 13222013,
+  "formatted_lines": "13,222,013",
   "total_stars": 4,
-  "next_update_eta": "06:53:15",
+  "next_update_eta": "07:26:48",
   "top_languages": [
     {
       "lang": "TypeScript",
-      "size": 51850327
+      "size": 51854173
+    },
+    {
+      "lang": "Python",
+      "size": 32129391
     },
     {
       "lang": "PHP",
       "size": 27770234
     },
     {
-      "lang": "Python",
-      "size": 26276657
+      "lang": "JavaScript",
+      "size": 7322732
     },
     {
       "lang": "Go",
       "size": 5994453
-    },
-    {
-      "lang": "HTML",
-      "size": 2949290
     }
   ]
 }
