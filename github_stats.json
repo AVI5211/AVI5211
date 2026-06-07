@@ -71,16 +71,16 @@
   "yearly_contributions": {
     "2026": 0,
     "2025": 0,
-    "2024": 0,
     "2022": 0,
-    "2023": 0
+    "2023": 0,
+    "2024": 0
   },
   "personal_commits": 0,
   "org_commits": 0,
   "total_lines": 13222004,
   "formatted_lines": "13,222,004",
   "total_stars": 4,
-  "next_update_eta": "02:52:03",
+  "next_update_eta": "02:49:36",
   "top_languages": [
     {
       "lang": "TypeScript",
