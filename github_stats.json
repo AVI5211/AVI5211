@@ -75,41 +75,41 @@
       "stars": 0
     }
   ],
-  "commits_this_year": 1206,
-  "total_commits": 1981,
+  "commits_this_year": 1208,
+  "total_commits": 1983,
   "yearly_contributions": {
-    "2023": 11,
     "2022": 3,
-    "2024": 244,
-    "2026": 1206,
-    "2025": 517
+    "2023": 11,
+    "2025": 517,
+    "2026": 1208,
+    "2024": 244
   },
   "personal_commits": 0,
   "org_commits": 0,
-  "total_lines": 13222116,
-  "formatted_lines": "13,222,116",
+  "total_lines": 1026946,
+  "formatted_lines": "1,026,946",
   "total_stars": 4,
-  "next_update_eta": "02:27:46",
+  "next_update_eta": "02:20:23",
   "top_languages": [
     {
-      "lang": "TypeScript",
-      "size": 51854173
-    },
-    {
-      "lang": "Python",
-      "size": 32130465
-    },
-    {
       "lang": "PHP",
-      "size": 27770234
+      "size": 28978645
     },
     {
-      "lang": "JavaScript",
-      "size": 7322732
+      "lang": "CSS",
+      "size": 2478526
     },
     {
-      "lang": "Go",
-      "size": 5994453
+      "lang": "Blade",
+      "size": 1571795
+    },
+    {
+      "lang": "TypeScript",
+      "size": 1463023
+    },
+    {
+      "lang": "HTML",
+      "size": 1426254
     }
   ]
 }

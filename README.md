@@ -10,8 +10,8 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Total_Repos-192-blue?style=flat-square&logo=github" alt="Total Repos" />
   <img src="https://img.shields.io/badge/AI_ML_Projects-40-purple?style=flat-square&logo=tensorflow" alt="AI/ML Projects" />
-  <img src="https://img.shields.io/badge/Total_Commits-1,981-green?style=flat-square&logo=git" alt="Total Commits" />
-  <img src="https://img.shields.io/badge/Lines_of_Code-13,222,116-orange?style=flat-square&logo=codecov" alt="Lines of Code" />
+  <img src="https://img.shields.io/badge/Total_Commits-1,983-green?style=flat-square&logo=git" alt="Total Commits" />
+  <img src="https://img.shields.io/badge/Lines_of_Code-1,026,946-orange?style=flat-square&logo=codecov" alt="Lines of Code" />
 </p>
 
 <p align="center">
@@ -38,7 +38,7 @@
 ### 🧠 Building Intelligent Solutions with Machine Learning & AI
 
 <p align="center">
-  <img src="https://img.shields.io/badge/AI%2FML_Projects-37-blueviolet?style=for-the-badge&logo=tensorflow&logoColor=white" alt="AI/ML Projects" />
+  <img src="https://img.shields.io/badge/AI%2FML_Projects-40-blueviolet?style=for-the-badge&logo=tensorflow&logoColor=white" alt="AI/ML Projects" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" />
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
