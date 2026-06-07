@@ -194,7 +194,7 @@ currently_learning: "Advanced Kubernetes & Cloud-Native Tech"
 ##  GitHub Statistics
 
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AVI5211&theme=tokyonight&_nocache=1717849200" width="80%"/>
+  <img src="https://us-central1-aviraj-portfolio.cloudfunctions.net/githubStats?username=AVI5211&theme=tokyonight" width="80%"/>
 </div>
 
 ---
