@@ -3,6 +3,15 @@
   "public_repos": 74,
   "private_repos": 118,
   "organizations": 7,
+  "organizations_list": [
+    "alaska-app",
+    "aviya-in",
+    "AIVault-in",
+    "Audiome-25",
+    "alaska-clients",
+    "DYP-ACS",
+    "InfraLab-foundry"
+  ],
   "ai_ml_projects": 40,
   "ai_ml_projects_list": [
     {
@@ -66,21 +75,21 @@
       "stars": 0
     }
   ],
-  "commits_this_year": 1204,
-  "total_commits": 1979,
+  "commits_this_year": 1206,
+  "total_commits": 1981,
   "yearly_contributions": {
     "2023": 11,
     "2022": 3,
     "2024": 244,
-    "2026": 1204,
+    "2026": 1206,
     "2025": 517
   },
   "personal_commits": 0,
   "org_commits": 0,
-  "total_lines": 13222062,
-  "formatted_lines": "13,222,062",
+  "total_lines": 13222116,
+  "formatted_lines": "13,222,116",
   "total_stars": 4,
-  "next_update_eta": "02:43:18",
+  "next_update_eta": "02:27:46",
   "top_languages": [
     {
       "lang": "TypeScript",
@@ -88,7 +97,7 @@
     },
     {
       "lang": "Python",
-      "size": 32129904
+      "size": 32130465
     },
     {
       "lang": "PHP",

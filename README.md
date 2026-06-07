@@ -10,8 +10,8 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Total_Repos-192-blue?style=flat-square&logo=github" alt="Total Repos" />
   <img src="https://img.shields.io/badge/AI_ML_Projects-40-purple?style=flat-square&logo=tensorflow" alt="AI/ML Projects" />
-  <img src="https://img.shields.io/badge/Total_Commits-1,979-green?style=flat-square&logo=git" alt="Total Commits" />
-  <img src="https://img.shields.io/badge/Lines_of_Code-13,222,062-orange?style=flat-square&logo=codecov" alt="Lines of Code" />
+  <img src="https://img.shields.io/badge/Total_Commits-1,981-green?style=flat-square&logo=git" alt="Total Commits" />
+  <img src="https://img.shields.io/badge/Lines_of_Code-13,222,116-orange?style=flat-square&logo=codecov" alt="Lines of Code" />
 </p>
 
 <p align="center">
@@ -105,7 +105,7 @@
   <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face"/>
 </p>
 
-**📊 37 AI/ML projects across personal & organization repositories**  
+**📊 40 AI/ML projects across personal & organization repositories**  
 *Specializing in LLMs, Computer Vision, MLOps & Intelligent Automation*
 
 </div>
@@ -209,9 +209,9 @@ currently_learning: "Advanced Kubernetes & Cloud-Native Tech"
 
 | 📦 Total Repositories | 🔓 Public | 🔒 Private | 🏢 Organizations | 👥 Followers | 👤 Following |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| **192** | 74 | 118 | **3** | **7** | 3 |
+| **192** | 74 | 118 | **7** | **7** | 3 |
 
-**Organizations:** `alaska-app` • `aviya-in` • `AIVault-in`
+**Organizations:** `alaska-app` • `aviya-in` • `AIVault-in` • `Audiome-25` • `alaska-clients` • `DYP-ACS` • `InfraLab-foundry`
 
 </div>
 
