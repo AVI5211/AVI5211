@@ -69,18 +69,18 @@
   "commits_this_year": 0,
   "total_commits": 0,
   "yearly_contributions": {
+    "2023": 0,
+    "2024": 0,
     "2026": 0,
     "2025": 0,
-    "2024": 0,
-    "2023": 0,
     "2022": 0
   },
   "personal_commits": 0,
   "org_commits": 0,
-  "total_lines": 13221935,
-  "formatted_lines": "13,221,935",
+  "total_lines": 13222004,
+  "formatted_lines": "13,222,004",
   "total_stars": 4,
-  "next_update_eta": "03:19:04",
+  "next_update_eta": "03:12:48",
   "top_languages": [
     {
       "lang": "TypeScript",
@@ -88,7 +88,7 @@
     },
     {
       "lang": "Python",
-      "size": 32128582
+      "size": 32129303
     },
     {
       "lang": "PHP",
