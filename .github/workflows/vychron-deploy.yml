@@ -1,0 +1,58 @@
+name: vychron-build-push-eks
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  id-token: write
+  contents: write
+
+env:
+  AWS_REGION: us-east-1
+  ECR_REGISTRY: AWS_ACCOUNT_ID.dkr.ecr.us-east-1.amazonaws.com
+  GITOPS_REPO: AVI5211/AVI5211-gitops-config
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        service: ["avi5211"]
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Configure AWS credentials via OIDC
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: REPLACE_WITH_VYCHRON_ECR_ROLE_ARN
+          aws-region: us-east-1
+
+      - name: Login to Amazon ECR
+        id: login-ecr
+        uses: aws-actions/amazon-ecr-login@v2
+
+      - name: Build and push Docker image
+        id: build
+        env:
+          IMAGE_TAG: sha-${{ github.sha }}
+        run: |
+          IMAGE_URI=$ECR_REGISTRY/${{ matrix.service }}:$IMAGE_TAG
+          docker build -f ${{ matrix.service }}/Dockerfile -t $IMAGE_URI .
+          docker push $IMAGE_URI
+          echo "image_tag=$IMAGE_TAG" >> $GITHUB_OUTPUT
+
+      - name: Update image tag in gitops repo
+        env:
+          IMAGE_TAG: sha-${{ github.sha }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --global user.name "vychron-bot"
+          git config --global user.email "bot@vychron.dev"
+          git clone https://x-access-token:${GH_TOKEN}@github.com/${GITOPS_REPO}.git /tmp/gitops
+          cd /tmp/gitops
+          python bin/update-image-tag.py --service ${{ matrix.service }} --tag $IMAGE_TAG
+          git add -A
+          git diff --cached --quiet || git commit -m "chore: ${{ matrix.service }} → sha-${{ github.sha }} [skip ci]"
+          git push
