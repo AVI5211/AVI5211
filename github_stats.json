@@ -1,7 +1,7 @@
 {
-  "total_repos": 195,
-  "public_repos": 75,
-  "private_repos": 120,
+  "total_repos": 197,
+  "public_repos": 76,
+  "private_repos": 121,
   "organizations": 7,
   "organizations_list": [
     "alaska-app",
@@ -75,21 +75,21 @@
       "stars": 0
     }
   ],
-  "commits_this_year": 1565,
-  "total_commits": 2340,
+  "commits_this_year": 1582,
+  "total_commits": 2357,
   "yearly_contributions": {
     "2023": 11,
     "2022": 3,
-    "2025": 517,
     "2024": 244,
-    "2026": 1565
+    "2025": 517,
+    "2026": 1582
   },
   "personal_commits": 0,
   "org_commits": 0,
-  "total_lines": 671753,
-  "formatted_lines": "671,753",
+  "total_lines": 671765,
+  "formatted_lines": "671,765",
   "total_stars": 4,
-  "next_update_eta": "07:07:02",
+  "next_update_eta": "06:53:43",
   "top_languages": [
     {
       "lang": "PHP",
@@ -109,7 +109,7 @@
     },
     {
       "lang": "HTML",
-      "size": 4886613
+      "size": 4886741
     }
   ]
 }
